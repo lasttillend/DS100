@@ -1,11 +1,5 @@
 name: data100
 channels:
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
-  - https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
   - defaults
   - conda-forge
 dependencies:
@@ -197,6 +191,6 @@ dependencies:
     - nbgitpuller==0.6.1
     - nbzip==0.1.0
     - prometheus-client==0.3.1
-    - redis==2.10.6  
+    - redis==2.10.6
     - git+git://github.com/berkeley-dsep-infra/nbgrader.git@7aba39a
 prefix: /srv/conda/envs/data100

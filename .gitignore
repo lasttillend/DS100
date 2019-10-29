@@ -1,4 +1,19 @@
-_site/
 .ipynb_checkpoints
 *.pyc
+*.DS_Store
+*.swp
+*.db
 
+# Data #
+*.zip
+*.gz
+*.tsv
+*.csv
+*.png
+
+# Folders #
+data/
+hw/**/data/
+lab/**/data/
+lec/**/data/
+miscellaneous/
